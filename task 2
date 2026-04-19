@@ -1,0 +1,143 @@
+# Number Guessing Game
+
+### CodSoft Internship - Java Programming Task
+
+This project is developed as part of the Java Programming Internship at CodSoft.
+It is a console-based Number Guessing Game where the user tries to guess a randomly generated number within a limited number of attempts.
+
+---
+
+## Task Details
+
+* Internship Provider: CodSoft
+* Domain: Java Programming
+* Task: Number Guessing Game
+* Mode: Console-based Application
+
+---
+
+## Features
+
+* Random number generation between 1 and 100
+* Limited number of attempts (5 tries per round)
+* Hints based on guess proximity
+* Score tracking system
+* Option to play multiple rounds
+
+---
+
+## Technologies Used
+
+* Java
+* OOP Concepts
+* Random class
+* Scanner for user input
+
+---
+
+## Project Structure
+
+```bash
+GuessGame.java
+```
+
+---
+
+## How to Run
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/mithunkr23/codsoft.git
+```
+
+### Step 2: Navigate to Project Folder
+
+```bash
+cd codsoft
+```
+
+### Step 3: Compile the Code
+
+```bash
+javac GuessGame.java
+```
+
+### Step 4: Run the Program
+
+```bash
+java GuessGame
+```
+
+---
+
+## Sample Output
+
+```
+=== Number Guessing Game ===
+
+Guess a number between 1 and 100
+You have only 5 tries.
+
+Enter your guess:
+```
+
+---
+
+## Game Logic
+
+* The system generates a random number between 1 and 100
+* The user has 5 attempts to guess the number
+* Feedback is provided:
+
+  * "Very close" if the guess is within 5 of the number
+  * "Too high" or "Too low" otherwise
+* Score increases by 10 for each correct guess
+* Game continues until the user chooses to exit
+
+---
+
+## Key Concepts Used
+
+* Loops and conditionals
+* Random number generation
+* User input handling
+* Basic game logic implementation
+
+---
+
+## Limitations
+
+* No graphical interface
+* Score is not stored permanently
+
+---
+
+## Future Enhancements
+
+* Add difficulty levels
+* Store high scores using file handling
+* Develop GUI version using Java Swing or JavaFX
+
+---
+
+## Learning Outcome
+
+This project helped in understanding:
+
+* Implementation of game logic in Java
+* Use of Random and Scanner classes
+* Control flow using loops and conditions
+
+---
+
+## Author
+
+Mithun K R
+CodSoft Java Intern
+
+---
+
+## License
+
+This project is for educational purposes as part of the CodSoft Internship.
